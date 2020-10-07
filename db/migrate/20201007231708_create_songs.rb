@@ -7,7 +7,7 @@ class CreateSongs < ActiveRecord::Migration[5.0]
       t.boolean :released
       t.string :genre
 
-       t.timestamps null: false
+      t.timestamps null: false
     end
   end
 end
